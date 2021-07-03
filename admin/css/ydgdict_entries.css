@@ -1,0 +1,159 @@
+div#ydgdict_metabox_id 
+{
+    width: 100%;
+}
+
+table#ydgdict_form_table
+{
+        background-color: #404f5a;
+    border-collapse: collapse;
+    padding: 20px;
+    display: block;
+}
+
+table#ydgdict_form_table, 
+table#ydgdict_form_table th, 
+table#ydgdict_form_table td 
+{
+    border: 0px;
+}
+
+.buttons_hint
+{
+    text-align: right;
+}
+
+.ydgdict_idea, .ydgdict_idea_note
+{
+    width: 100%;
+}
+
+tbody 
+{
+    display:block;
+    margin-bottom: 20px;
+}
+
+tbody#ydgdict_hide_me
+{
+    display: none;
+}
+
+tbody#ydgdict_entry_set input:disabled,
+tbody#ydgdict_entry_set input::placeholder, 
+tbody#ydgdict_entry_set select:disabled, 
+tbody#ydgdict_entry_set textarea:disabled
+{
+    color: white;
+}
+
+tbody#ydgdict_entry_set
+{
+    /* display: block; */
+    color: white;
+    background-color: slategray;
+}
+
+tbody#ydgdict_entry_set:hover
+{
+    background-color: steelblue;
+    cursor: pointer;
+}
+
+td.ydgdict_col_1, td.ydgdict_col_2, td.ydgdict_col_3 
+{
+    white-space: nowrap;
+    padding: 0;
+    width:40%;
+        padding: 3px;
+        border: solid #4b4b4b 1px;
+}
+
+td.ydgdict_col_1
+{
+    /*width: 200px;*/
+    position: relative;
+}
+
+td.ydgdict_col_2
+{
+   /* width: 140px; */
+}
+
+td.ydgdict_col_3 
+{
+    width: 60px;
+    text-align: right;
+}
+
+ul.ydgdict_entry_search li
+{
+    margin: 9px 0;
+}
+
+ul.ydgdict_entry_search 
+{
+    position: absolute;
+    background-color: white;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: inherit;
+}
+
+.ydgdict_idea_row *
+{
+    margin-top: 10px;
+}
+
+.ydgdict_idea_row ~ .ydgdict_idea_row *
+{
+    margin-top: 0px;
+}
+
+select.ydgdict_entry_parent
+{
+    width: 140px;
+}
+
+.ydgdict_invalid
+{
+    border: 2px solid red;
+}
+
+
+.ydgdict_hideme
+{
+    display: none !important;
+}
+.ydgdict_add_entry_button, .ydgdict_del_entry_button
+{    border-radius: 100%;
+    color: white;
+    background: #189856;
+    border: solid black 1px;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;}
+.ydgdict_del_entry_button
+{background-color:red;}
+.ydgdict_entry_set
+{    border: solid;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    padding: 20px;
+    background: #c2d7e8c7;}
+    
+.ydgdict_add_idea_button, .ydgdict_del_idea_button
+{    border-radius: 100%;
+    border: solid black 1px;
+     background: #189856;
+    width: 25px;
+    height: 25px;cursor:pointer;}
+    
+.ydgdict_del_idea_button{ background: #c2d7e8c7;}
+.ydgdict_add_idea_button:hover, .ydgdict_del_idea_button:hover, .ydgdict_add_entry_button:hover, .ydgdict_del_entry_button:hover
+{opacity:0.6;}
+/*
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus
+{border: solid 2px #5ae13d;box-shadow:none;} */
