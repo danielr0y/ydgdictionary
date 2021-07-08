@@ -1,4 +1,4 @@
-# yourdailygerman dictionary
+# WordPress Plugin development with PHP and JavaScript incl. project management 
 [yourdailygerman.com/dictionary](https://yourdailygerman.com/dictionary)
 
 ## summary
