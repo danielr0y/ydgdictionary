@@ -1,4 +1,4 @@
-# WordPress Plugin development with PHP and JavaScript incl. project management 
+# WordPress Plugin development with PHP and JavaScript 
 [yourdailygerman.com/dictionary](https://yourdailygerman.com/dictionary)
 
 ## summary
